@@ -1,0 +1,5 @@
+#1. (덜 중요한 질문) stub가 16bit, 32 bit 시스템에서는 아예 실행이 되지 않는다고 적혀있는데, DOS도 16bit이긴 마찬가지 아닌가요?  DOS에서도 실행되지 않는게 맞다면 "도스에서 실행할 수 없는 프로그램입니다"를 알리는 제 역할을 할 수 없는 것 같아서 제가 잘못 이해한 것이 없는지 여쭈고자 합니다.
+
+
+
+#2. Section header에 대한 질문입니다.  VirtualSize와 VirtualAddress는 메모리상의 크기와 offset을 나타내고, 파일상의 크기와 offset을 나타내는SizeOfRawData와 PointerToRawData보다 크기가 큽니다. 그런데 메모리의 section alignment가 파일의 것보다 메모리의 것이 작은데 왜 그 사이즈들을 담는 변수의 크기는 후자가 더 큰가요?
